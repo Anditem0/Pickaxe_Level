@@ -1,0 +1,49 @@
+---
+Server-Name: "The Void"
+
+#Id Block - Kinh Nhiệm
+Exp-Block:
+  1: 2
+
+#Tính Năng Thêm Máu true = mở
+Hp-Feature: true 
+#Cấp * Max-Level = Kinh Nhiệm để lên cấp
+Max-Level: 110
+
+# Tiền Nhận được Khi Lên Cấp = Level * Money-NextLevel
+Money-NextLevel: 500
+
+#block để nung:  id block đập => id block sau khi nấu
+Block-Cook:
+   1: 1
+   14: 266
+   15: 265
+
+#Setting Cúp
+Pickaxe:
+  #Level Để Đạt ĐƯỢC kĩ Năng
+  Feature-Level:
+    #level để được thêm Hp
+    Min-HP: 20
+    Max-HP: 30
+    #đập Block ra Tiền
+    Block-Money: 20
+    #Tự Đông sửa chữa 
+    Repair: 20
+    #tự động nấu
+    Cook: 20
+    #Mềm Mại
+    Silk: 20
+    #hast
+    hast1: 20
+    hast2: 20
+    hast3: 20
+    hast4: 20
+    hast5: 20
+    
+  #Cấp độ Enchant
+  Eff-Level:
+    Max-Efficiency: 20
+    Max-Fortune: 20
+  
+  
